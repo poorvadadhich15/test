@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+.navbar {
+background-color: rgb(139, 238, 233);
+border-radius: 10px;
+}
+
+.navbar ul {
+overflow: auto;
+}
+
+.navbar li {
+float: left;
+list-style: none;
+margin: 10px 15px;
+padding-top: 2px;
+
+}
+
+.navbar li a {
+
+padding: 3px 3px;
+text-decoration: none;
+}
+
+.search {
+float: right;
+color: cornsilk;
+padding: 10px 25px;
+}
+
+.navbar input {
+border: 0px solid black;
+border-radius: 10px;
+padding: 7px;
+width: 159px;
+padding-top: 3px;
+}
+body{
+    
+    background-image: url(https://wallpapercave.com/wp/wp5385322.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.cards{
+    display: inline-block;
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 30px;
+    box-shadow: 2px 2px 10px black;
+    
+}
+.image img{
+    width: 100%;  
+    border-top-left-radius 5px; 
+    border-top-right-radius 5px; 
+}
+.title {
+    text-align: center;
+}
+    
+.des{
+    text-align: center;
+
+}
+button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: yellow;
+    border: 1px solid black; 
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: ;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+}
